@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.logo{
+	/* mix-blend-mode:multiply; */
+	top: 0%;
+	position: absolute;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 0%;
+	top: 2%;
+	display: flex;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: white;
+	font-size: 100px;
+}
+h5{
+	color: white;
+	text-shadow: 0 0 5px #999;
+}
+.col p{
+	color: white;
+	line-height: 15px;
+	font-size: 15px;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+	
+	
+}
+button{
+	width: 220px;
+	color: #000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	margin-left: 400px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+.button:hover,.button:focus, .button:active{
+	cursor: pointer;
+	background: none;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-transform: scale(1.1);
+	transform: scaler(1.1);
+	color: #fff;
+}
+
+.album{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.pic1{
+	background-image: url(../homepage.jpg);
+}
+.pic2{
+	background-image: url(../logo.jpg);
+}
+.pic3{
+	background-image: url(../logo1.jpg);
+}
+.pic4{
+	background-image: url(../logo2.jpg);
+}
+.album:hover{
+	transform: translateY(-10px);
+}
+.album p{
+	text-shadow: 0 0 5px #000;
+	font-size: 8px;
+}
+nav{
+	text-align: right;
+	flex: 1;
+}
+.main{
+	/* padding-left: 8px;
+	padding-right: 8px; */
+	/* max-width: 1200px; */
+	/* margin: auto; */
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../homepage.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding-left: 8%;
+	padding-right: 2%;
+	max-width: 100%;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right:20px ;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+background-color:#fff;
+	color: #000;
+
+}
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 50px;
+}
+body{
+	letter-spacing: 3px;
+	
+}
+.container{
+	background-color: transparent;
+	/* background-color: #f8f3f3; */
+	margin: 140px;
+	margin-top: 60px;
+	box-shadow: 10px 15px 20px rgba(0,0,0,0.5);
+	display: grid;
+	grid-template-columns: 100% 200%;
+	margin-bottom: 20px;
+	/* margin-left: 0.5em; */
+}
+.container-form{
+	width: 100%; 
+     max-width: 800px; 
+    padding: 30px 10px;
+    margin: 0 auto;
+    color: black;
+	height: 580px;
+	position: relative;
+	
+}
+p{
+	font-weight: 600;
+	color: #fff;
+	font-size: 28px;
+}
+.ex{
+	font-size: 16px;
+	font: black;
+}
+.ex:hover{
+	cursor: pointer;
+	background: none;
+	box-shadow: 0 0 10px rgba(104, 103, 103, 0.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	color: white;
+	background-color: #585757;
+}
+.form-feild{
+	display: flex;
+	justify-content: space-between;
+	font-size: small;
+}
+.form-feild1{
+	display: flex;
+	justify-content: space-between;
+	font-size: small;
+	
+}
+.button-form{
+		width: 220px;
+		color: #000;
+		font-size: 15px;
+		padding: 12px 0;
+		/* background: #fff; */
+		border: 0;
+		border-radius: 20px;
+		outline: none;
+		margin-top: 40px;
+		margin-left: 110px;
+		margin-bottom: 90px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: box-shadow, transform;
+		transition-property: box-shadow, transform;
+
+}
+.button-form:hover{
+	cursor: pointer;
+	background: none;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-transform: scale(1.1);
+	transform: scaler(1.1);
+	color: #fff;
+}
